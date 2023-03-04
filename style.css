@@ -9,3 +9,42 @@ h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
+
+body {
+  background-color: #FFEFEF;
+}
+
+.main {
+  background-color: white;
+  text-align: center;
+  width: 85%;
+}
+
+header {
+  text-align: center;
+}
+
+.images img {
+  width: 32%;
+}
+
+button {
+  background-color: #FFEFEF;
+  border: #FFEFEF;
+  padding: 1rem;
+}
+
+.losos img,
+.dezert img {
+  float: left;
+}
+
+.losos,
+.dezert,
+.tagliatelle {
+  overflow: auto;
+}
+
+.tagliatelle img {
+  float: right;
+}
