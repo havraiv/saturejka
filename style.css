@@ -1,56 +1,190 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext);
+
+
 
 html {
-  font-family: 'Open Sans', sans-serif;
+
+  font-family: "Open Sans", sans-serif;
+
   font-size: 15px;
+
 }
+
+
 
 h1,
+
 h2 {
-  font-family: 'Playfair Display', serif;
+
+  font-family: "Playfair Display", serif;
+
 }
+
+
+
+h1 {
+
+  margin: 0;
+
+}
+
+
 
 body {
-  background-color: #FFEFEF;
+
+  background-color: #ffefef;
+
 }
+
+
 
 .main {
+
   background-color: white;
+
   text-align: center;
-  width: 85%;
-  padding: 3rem;
+
+  width: 75%;
+
+  padding: 6rem;
+
+  margin: auto;
+  /*zarovnání na prostředek*/
+
 }
+
+
 
 header {
+
   text-align: center;
+
 }
+
+
 
 .images img {
+
   width: 25%;
+
 }
+
+
+
+.images {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  margin: 3rem 0;
+
+}
+
+
 
 button {
-  background-color: #FFEFEF;
-  border: #FFEFEF;
+
+  background-color: #ffefef;
+
+  border: #ffefef;
+
   padding: 1rem;
+
 }
 
-.losos img,
-.dezert img {
-  float: left;
-}
+
 
 .losos,
+
 .dezert,
+
 .tagliatelle {
-  overflow: auto;
+
+  display: flex;
+
 }
 
-.tagliatelle img {
-  float: right;
-}
+
 
 .text {
+
   display: flex;
+
   flex-direction: row;
+
+  justify-content: space-between;
+
+}
+
+
+
+.text1 {
+
+  width: 45%;
+
+  text-align: left;
+
+}
+
+.dish_left {
+
+  text-align: left;
+
+}
+
+
+
+.dish_right,
+
+.kureci {
+
+  text-align: right;
+
+}
+
+.dishes img {
+
+  width: 30%;
+
+  height: 30%;
+
+  margin: 2rem;
+
+}
+
+.content {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: baseline;
+  /*bez baseline by byly prvky roztažený blokově*/
+
+  justify-content: space-evenly;
+
+}
+
+
+
+.content_kureci {
+
+  align-items: end;
+
+}
+
+footer {
+
+  max-width: 670px;
+
+  margin: 4rem auto;
+
+  text-align: center;
+
+}
+
+header p {
+  margin-bottom: 2rem;
+  ;
 }
